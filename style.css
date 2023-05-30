@@ -3,6 +3,13 @@
     height: 100%;
 }
 
+.bal {
+    position: absolute;
+    top: 50%;
+    left: 16px;
+    font-size: 50px;
+}
+
 .container {
     position: relative;
     text-align: center;
@@ -56,9 +63,4 @@ video {
 
 button>img {
     width: 5%;
-    visibility: visible;
-}
-
-button {
-    visibility: hidden;
 }
