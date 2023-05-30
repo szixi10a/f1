@@ -1,13 +1,16 @@
 .row {
+    
+    padding:  20px 30px 0px 30px;;
     background-color: wheat;
-    height: 100%;
+    display: inline-block;
 }
 
 .bal {
-    position: absolute;
-    top: 50%;
-    left: 16px;
-    font-size: 50px;
+    float: left;
+}
+
+.jobb {
+    float: right;
 }
 
 .container {
@@ -62,5 +65,13 @@ video {
 }
 
 button>img {
-    width: 5%;
+    width: 10%;
+}
+
+button {
+    border-radius: 20px;
+    padding: 10px;
+    width: 45%;
+    margin-left: 5px;
+    margin-right: 5px;
 }
