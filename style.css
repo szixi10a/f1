@@ -28,3 +28,7 @@ video {
     border-radius: 10px;
     border: 1px black solid;
 }
+
+button {
+    opacity: none;
+}
